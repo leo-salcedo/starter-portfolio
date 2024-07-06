@@ -27,7 +27,7 @@ const TAB_DATA = [
         style={{ paddingLeft: "20px", listStyleType: "disc", fontSize: "16px" }}
       >
         <li style={{ marginBottom: "20px" }}>
-          <strong style={{ fontSize: "18px", textDecoration: "underline" }}>
+          <strong style={{ fontSize: "18px"}}>
             University of Maryland, College Park
           </strong>
           <ul
@@ -40,7 +40,7 @@ const TAB_DATA = [
             <li style={{ fontSize: "14px" }}>
               Bachelor of Science in Computer Science
             </li>
-            <li style={{ fontSize: "16px", textDecoration: "underline" }}>
+            <li style={{ fontSize: "16px"}}>
               <strong>Relevant Coursework:</strong>
             </li>
             <ul
@@ -61,7 +61,7 @@ const TAB_DATA = [
           </ul>
         </li>
         <li style={{ marginBottom: "20px" }}>
-          <strong style={{ fontSize: "18px", textDecoration: "underline" }}>
+          <strong style={{ fontSize: "18px"}}>
             Lone Star College - CyFair
           </strong>
           <ul
@@ -71,7 +71,7 @@ const TAB_DATA = [
               fontSize: "16px",
             }}
           >
-            <li style={{ fontSize: "16px", textDecoration: "underline" }}>
+            <li style={{ fontSize: "16px" }}>
               <strong>Relevant Coursework:</strong>
             </li>
             <ul
