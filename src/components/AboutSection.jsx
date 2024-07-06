@@ -119,6 +119,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
           src="/images/Purple_Desktop_Setup.jpg"
+          alt="Purple Desktop"
           width={550}
           height={550}
         />
@@ -136,11 +137,10 @@ const AboutSection = () => {
             >
               LEO SALCEDO
             </strong>
-            , a Computer Science major at the University of
-            Maryland. There are many like it, but this one is
-            mine. I am also a President's Scholar in University Honors within
-            the Honors College. I'm interested in full-stack and backend
-            software engineering.
+            , a Computer Science major at the University of Maryland. There are
+            many like it, but this one is mine. I am also a President&apos;s
+            Scholar in University Honors within the Honors College. I&apos;m
+            interested in full-stack and backend software engineering.
           </p>
           <div className="flex flex-row mt-8">
             <TabButton
