@@ -15,6 +15,7 @@ const TAB_DATA = [
         <li style={{ marginBottom: "15px", fontSize: "16px" }}>HTML/CSS</li>
         <li style={{ marginBottom: "15px", fontSize: "16px" }}>React</li>
         <li style={{ marginBottom: "15px", fontSize: "16px" }}>Node.js</li>
+        <li style={{ marginBottom: "15px", fontSize: "16px" }}>Git</li>
       </ul>
     ),
   },
