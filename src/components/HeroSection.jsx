@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="col-span-5 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl sm:text-6xl lg:text-7xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hey, I'm{" "}
+              Hey, I&apos;m{" "}
             </span>
             <br />
             {/* Container for Animation */}
