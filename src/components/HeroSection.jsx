@@ -4,6 +4,13 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
+const handleDownload = () => {
+  const link = document.createElement('a');
+  link.href = '/Leo_s_Resume.pdf';
+  link.download = 'Leo_s_Resume.pdf'
+  link.click();
+}
+
   return (
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -52,7 +59,7 @@ const HeroSection = () => {
             <button className="px-8 py-4 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white text-lg">
               Hire Me
             </button>
-            <button className="px-2 py-2 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white ml-3">
+            <button onClick={handleDownload} className="px-2 py-2 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white ml-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-6 py-3 text-lg">
                 Download Resume
               </span>
