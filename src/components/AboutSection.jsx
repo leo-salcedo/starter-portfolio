@@ -28,7 +28,7 @@ const TAB_DATA = [
       >
         <li style={{ marginBottom: "20px" }}>
           <strong style={{ fontSize: "18px"}}>
-            University of Maryland, College Park
+            University of Maryland
           </strong>
           <ul
             style={{
@@ -54,8 +54,8 @@ const TAB_DATA = [
                 Object-Oriented Programming II
               </li>
               <li style={{ fontSize: "14px" }}>
-                Honors Multivariable Calculus, Linear Algebra, and Differential
-                Equations I
+                Multivariable Calculus, Linear Algebra, and Differential
+                Equations I Honors
               </li>
             </ul>
           </ul>

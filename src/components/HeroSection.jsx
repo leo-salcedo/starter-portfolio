@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 const HeroSection = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Leo_s_Resume.pdf";
-    link.download = "Leo_s_Resume.pdf";
+    link.href = "/Salcedo_Leonardo_Resume.pdf";
+    link.download = "Salcedo_Leonardo_Resume.pdf";
     link.click();
   };
 
